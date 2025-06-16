@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - DL COMMUNITY</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="admin-container">
+    <h2>Interface Administrateur</h2>
+    <input type="password" id="password" placeholder="Mot de passe">
+    <button onclick="login()">Se connecter</button>
+    <div id="editor" style="display:none;">
+      <textarea id="adminText" rows="6"></textarea><br>
+      <button onclick="saveText()">Enregistrer</button>
+    </div>
+  </div>
+  <script src="admin.js"></script>
+</body>
+</html>
